@@ -1,11 +1,28 @@
-VERSION="2.0.0"
-
 NETWORK_PASSPHRASE="Test SDF Network ; September 2015"
 FEDERATION_SERVER="https://api.stellar.org/federation"
 AUTH_SERVER="https://api.stellar.org/auth"
 TRANSFER_SERVER="https://api.stellar.org"
 SIGNING_KEY="GAJ352EGGDAIEI5AQ2ZZXCCZESMV4GLTZ443G5SUWMO7GPGFTCW3KG5F"
 HORIZON_URL="https://horizon-testnet.stellar.org"
-ACCOUNTS="GAJ352EGGDAIEI5AQ2ZZXCCZESMV4GLTZ443G5SUWMO7GPGFTCW3KG5F"
+ACCOUNTS=[
+"GAJ352EGGDAIEI5AQ2ZZXCCZESMV4GLTZ443G5SUWMO7GPGFTCW3KG5F"
+]
+VERSION="2.0.0"
+
+[DOCUMENTATION]
+ORG_NAME="StellarQuest Steve"
+ORG_URL="https://www.domain.com"
+ORG_LOGO="https://www.domain.com/awesomelogo.png"
+ORG_PHYSICAL_ADDRESS="123 Sesame Street, New York, NY 12345, United States"
+ORG_OFFICIAL_EMAIL="support@domain.com"
+
+[[PRINCIPALS]]
+name="Jane Jedidiah Johnson"
+email="jane@domain.com"
+
+[[CURRENCIES]]
+code="USD"
+issuer="GCZJM35NKGVK47BB4SPBDV25477PZYIYPVVG453LPYFNXLS3FGHDXOCM"
+display_decimals=2
 
 SQ02_EASTER_EGG="Log into series 2 of Stellar Quest then visit quest.stellar.org/series2. Finally drag and drop your Stellar Quest series 2 badge PNG images onto the screen. Enjoy!"
