@@ -1,1 +1,8 @@
+VERSION="2.0.0"
+
+HORIZON_URL="https://horizon-testnet.stellar.org"
+ACCOUNTS=[
+"GAJ352EGGDAIEI5AQ2ZZXCCZESMV4GLTZ443G5SUWMO7GPGFTCW3KG5F"
+]
+
 SQ02_EASTER_EGG="Log into series 2 of Stellar Quest then visit quest.stellar.org/series2. Finally drag and drop your Stellar Quest series 2 badge PNG images onto the screen. Enjoy!"
